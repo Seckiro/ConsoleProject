@@ -11,12 +11,12 @@
 using System;
 using System.Reflection;
 
-[assembly: System.Reflection.AssemblyCompanyAttribute("LinkedList")]
+[assembly: System.Reflection.AssemblyCompanyAttribute("CircularLinkedList")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
-[assembly: System.Reflection.AssemblyProductAttribute("LinkedList")]
-[assembly: System.Reflection.AssemblyTitleAttribute("LinkedList")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f33060ff1ba0ee6629d299053a13a2586ea55c21")]
+[assembly: System.Reflection.AssemblyProductAttribute("CircularLinkedList")]
+[assembly: System.Reflection.AssemblyTitleAttribute("CircularLinkedList")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
 
 // 由 MSBuild WriteCodeFragment 类生成。
