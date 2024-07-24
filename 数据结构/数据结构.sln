@@ -9,7 +9,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LinkedList", "LinkedList\Li
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DoubleLinkedList", "DoubleLinkedList\DoubleLinkedList.csproj", "{1F4C1B8D-ADC8-4DDC-ABB7-317774C37761}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CircularLinkedList", "CircularLinkedList\CircularLinkedList.csproj", "{4CB68E3F-8CAC-4AF8-A1D1-9853A1CAA001}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CircularLinkedList", "CircularLinkedList\CircularLinkedList.csproj", "{4CB68E3F-8CAC-4AF8-A1D1-9853A1CAA001}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BinaryTree", "BinaryTree\BinaryTree.csproj", "{8EF49457-3B73-4B99-A8BD-CE67918DE68E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{4CB68E3F-8CAC-4AF8-A1D1-9853A1CAA001}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4CB68E3F-8CAC-4AF8-A1D1-9853A1CAA001}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4CB68E3F-8CAC-4AF8-A1D1-9853A1CAA001}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8EF49457-3B73-4B99-A8BD-CE67918DE68E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8EF49457-3B73-4B99-A8BD-CE67918DE68E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8EF49457-3B73-4B99-A8BD-CE67918DE68E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8EF49457-3B73-4B99-A8BD-CE67918DE68E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
