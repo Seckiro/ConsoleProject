@@ -13,3 +13,18 @@ F:\ConsoleProject\数据结构\排序算法\obj\Debug\net8.0\refint\排序算法
 F:\ConsoleProject\数据结构\排序算法\obj\Debug\net8.0\排序算法.pdb
 F:\ConsoleProject\数据结构\排序算法\obj\Debug\net8.0\排序算法.genruntimeconfig.cache
 F:\ConsoleProject\数据结构\排序算法\obj\Debug\net8.0\ref\排序算法.dll
+D:\Work Speace\VS Project\C#\ConsoleProject\数据结构\排序算法\bin\Debug\net8.0\排序算法.exe
+D:\Work Speace\VS Project\C#\ConsoleProject\数据结构\排序算法\bin\Debug\net8.0\排序算法.deps.json
+D:\Work Speace\VS Project\C#\ConsoleProject\数据结构\排序算法\bin\Debug\net8.0\排序算法.runtimeconfig.json
+D:\Work Speace\VS Project\C#\ConsoleProject\数据结构\排序算法\bin\Debug\net8.0\排序算法.dll
+D:\Work Speace\VS Project\C#\ConsoleProject\数据结构\排序算法\bin\Debug\net8.0\排序算法.pdb
+D:\Work Speace\VS Project\C#\ConsoleProject\数据结构\排序算法\obj\Debug\net8.0\排序算法.GeneratedMSBuildEditorConfig.editorconfig
+D:\Work Speace\VS Project\C#\ConsoleProject\数据结构\排序算法\obj\Debug\net8.0\排序算法.AssemblyInfoInputs.cache
+D:\Work Speace\VS Project\C#\ConsoleProject\数据结构\排序算法\obj\Debug\net8.0\排序算法.AssemblyInfo.cs
+D:\Work Speace\VS Project\C#\ConsoleProject\数据结构\排序算法\obj\Debug\net8.0\排序算法.csproj.CoreCompileInputs.cache
+D:\Work Speace\VS Project\C#\ConsoleProject\数据结构\排序算法\obj\Debug\net8.0\排序算法.sourcelink.json
+D:\Work Speace\VS Project\C#\ConsoleProject\数据结构\排序算法\obj\Debug\net8.0\排序算法.dll
+D:\Work Speace\VS Project\C#\ConsoleProject\数据结构\排序算法\obj\Debug\net8.0\refint\排序算法.dll
+D:\Work Speace\VS Project\C#\ConsoleProject\数据结构\排序算法\obj\Debug\net8.0\排序算法.pdb
+D:\Work Speace\VS Project\C#\ConsoleProject\数据结构\排序算法\obj\Debug\net8.0\排序算法.genruntimeconfig.cache
+D:\Work Speace\VS Project\C#\ConsoleProject\数据结构\排序算法\obj\Debug\net8.0\ref\排序算法.dll
