@@ -11,7 +11,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DoubleLinkedList", "DoubleL
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CircularLinkedList", "CircularLinkedList\CircularLinkedList.csproj", "{4CB68E3F-8CAC-4AF8-A1D1-9853A1CAA001}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BinaryTree", "BinaryTree\BinaryTree.csproj", "{8EF49457-3B73-4B99-A8BD-CE67918DE68E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BinaryTree", "BinaryTree\BinaryTree.csproj", "{8EF49457-3B73-4B99-A8BD-CE67918DE68E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "排序算法", "排序算法\排序算法.csproj", "{AB112E63-2D4C-48EF-9D34-5BFC4255231B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +41,10 @@ Global
 		{8EF49457-3B73-4B99-A8BD-CE67918DE68E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8EF49457-3B73-4B99-A8BD-CE67918DE68E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8EF49457-3B73-4B99-A8BD-CE67918DE68E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AB112E63-2D4C-48EF-9D34-5BFC4255231B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AB112E63-2D4C-48EF-9D34-5BFC4255231B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AB112E63-2D4C-48EF-9D34-5BFC4255231B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AB112E63-2D4C-48EF-9D34-5BFC4255231B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

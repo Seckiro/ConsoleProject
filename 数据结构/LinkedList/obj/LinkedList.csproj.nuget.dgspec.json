@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Work Speace\\VS Project\\C#\\ConsoleProject\\数据结构\\LinkedList\\LinkedList.csproj": {}
+    "F:\\ConsoleProject\\数据结构\\LinkedList\\LinkedList.csproj": {}
   },
   "projects": {
-    "D:\\Work Speace\\VS Project\\C#\\ConsoleProject\\数据结构\\LinkedList\\LinkedList.csproj": {
+    "F:\\ConsoleProject\\数据结构\\LinkedList\\LinkedList.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Work Speace\\VS Project\\C#\\ConsoleProject\\数据结构\\LinkedList\\LinkedList.csproj",
+        "projectUniqueName": "F:\\ConsoleProject\\数据结构\\LinkedList\\LinkedList.csproj",
         "projectName": "LinkedList",
-        "projectPath": "D:\\Work Speace\\VS Project\\C#\\ConsoleProject\\数据结构\\LinkedList\\LinkedList.csproj",
-        "packagesPath": "C:\\Users\\姬晴天\\.nuget\\packages\\",
-        "outputPath": "D:\\Work Speace\\VS Project\\C#\\ConsoleProject\\数据结构\\LinkedList\\obj\\",
+        "projectPath": "F:\\ConsoleProject\\数据结构\\LinkedList\\LinkedList.csproj",
+        "packagesPath": "C:\\Users\\jiqingtian\\.nuget\\packages\\",
+        "outputPath": "F:\\ConsoleProject\\数据结构\\LinkedList\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\姬晴天\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\jiqingtian\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -59,7 +59,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

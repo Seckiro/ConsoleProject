@@ -1,0 +1,15 @@
+F:\ConsoleProject\数据结构\排序算法\bin\Debug\net8.0\排序算法.exe
+F:\ConsoleProject\数据结构\排序算法\bin\Debug\net8.0\排序算法.deps.json
+F:\ConsoleProject\数据结构\排序算法\bin\Debug\net8.0\排序算法.runtimeconfig.json
+F:\ConsoleProject\数据结构\排序算法\bin\Debug\net8.0\排序算法.dll
+F:\ConsoleProject\数据结构\排序算法\bin\Debug\net8.0\排序算法.pdb
+F:\ConsoleProject\数据结构\排序算法\obj\Debug\net8.0\排序算法.GeneratedMSBuildEditorConfig.editorconfig
+F:\ConsoleProject\数据结构\排序算法\obj\Debug\net8.0\排序算法.AssemblyInfoInputs.cache
+F:\ConsoleProject\数据结构\排序算法\obj\Debug\net8.0\排序算法.AssemblyInfo.cs
+F:\ConsoleProject\数据结构\排序算法\obj\Debug\net8.0\排序算法.csproj.CoreCompileInputs.cache
+F:\ConsoleProject\数据结构\排序算法\obj\Debug\net8.0\排序算法.sourcelink.json
+F:\ConsoleProject\数据结构\排序算法\obj\Debug\net8.0\排序算法.dll
+F:\ConsoleProject\数据结构\排序算法\obj\Debug\net8.0\refint\排序算法.dll
+F:\ConsoleProject\数据结构\排序算法\obj\Debug\net8.0\排序算法.pdb
+F:\ConsoleProject\数据结构\排序算法\obj\Debug\net8.0\排序算法.genruntimeconfig.cache
+F:\ConsoleProject\数据结构\排序算法\obj\Debug\net8.0\ref\排序算法.dll
