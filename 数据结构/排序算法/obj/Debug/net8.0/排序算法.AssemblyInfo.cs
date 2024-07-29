@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("排序算法")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+589781156f98d28d503027c6ec01c1972293b2c7")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4fd92cbdceec30fbbf7fd4ed9f56a09c9ee81bf1")]
 [assembly: System.Reflection.AssemblyProductAttribute("排序算法")]
 [assembly: System.Reflection.AssemblyTitleAttribute("排序算法")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

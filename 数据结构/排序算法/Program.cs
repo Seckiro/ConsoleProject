@@ -10,7 +10,8 @@
             //InsertionSort(values);
             //ShellSort(values);
             //QuickSort(values);
-            BinSortSort(values);
+            //BinSortSort(values);
+            HeapSort(values);
         }
 
         public static void BubbleSort(int[] values)
@@ -189,6 +190,58 @@
                 {
                     values[++index] = binArry[i];
                 }
+            }
+
+            for (int i = 0; i < length; i++)
+            {
+                Console.Write($"{values[i]} ");
+            }
+            Console.WriteLine($" ");
+        }
+
+        public static void HeapSort(int[] values)
+        {
+            void Heapify(int[] values, int length, int i)
+            {
+                int largest = i;
+                int leftChild = 2 * i + 1;
+                int rightChild = 2 * i + 2;
+
+                if (leftChild < length && values[largest] < values[leftChild])
+                {
+                    largest = leftChild;
+                }
+
+                if (rightChild < length && values[largest] < values[rightChild])
+                {
+                    largest = rightChild;
+                }
+
+                if (largest != i)
+                {
+                    int temp = values[largest];
+                    values[largest] = values[i];
+                    values[i] = temp;
+
+                    Heapify(values, length, largest);
+                }
+            }
+
+            int length = values.Length;
+
+            for (int i = length / 2; i >= 0; i--)
+            {
+                Heapify(values, length, i);
+            }
+
+            int tempIndex = length;
+            for (int i = length - 1; i >= 0; i--)
+            {
+                int temp = values[0];
+                values[0] = values[i];
+                values[i] = temp;
+
+                Heapify(values, i, 0);
             }
 
             for (int i = 0; i < length; i++)
