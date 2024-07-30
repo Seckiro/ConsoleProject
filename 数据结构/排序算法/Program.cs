@@ -11,7 +11,8 @@
             //ShellSort(values);
             //QuickSort(values);
             //BinSortSort(values);
-            HeapSort(values);
+            //HeapSort(values);
+            CountingSort(values);
         }
 
         public static void BubbleSort(int[] values)
@@ -249,6 +250,52 @@
                 Console.Write($"{values[i]} ");
             }
             Console.WriteLine($" ");
+        }
+
+        public static void CountingSort(int[] values)
+        {
+            int length = values.Length;
+            int maxValue = values[0];
+            for (int i = 0; i < length; i++)
+            {
+                if (maxValue < values[i])
+                {
+                    maxValue = values[i];
+                }
+            }
+
+            int countArrayLength = maxValue + 1;
+            int[] countArray = new int[countArrayLength];
+            for (int i = 0; i < length; i++)
+            {
+                countArray[values[i]]++;
+            }
+
+            int countSortIndex = 0;
+            for (int i = 0; i < countArrayLength; i++)
+            {
+                int countSortValue = countArray[i];
+                while (countSortValue > 0)
+                {
+                    values[countSortIndex++] = i;
+                    countSortValue--;
+                }
+            }
+
+            for (int k = 0; k < length; k++)
+            {
+                Console.Write($"{values[k]} ");
+            }
+            Console.WriteLine($" ");
+        }
+
+        public static void BucketSort(int[] values)
+        {
+            int length = values.Length;
+
+              
+
+
         }
     }
 }
