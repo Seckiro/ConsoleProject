@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34408.163
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "迷宫算法", "迷宫算法\迷宫算法.csproj", "{8ED78223-CBB2-4D75-ADEB-811A93D81011}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LinkedList", "LinkedList\LinkedList.csproj", "{8920B073-0313-4E09-8A66-89DA02CE961E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DoubleLinkedList", "DoubleLinkedList\DoubleLinkedList.csproj", "{1F4C1B8D-ADC8-4DDC-ABB7-317774C37761}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CircularLinkedList", "CircularLinkedList\CircularLinkedList.csproj", "{4CB68E3F-8CAC-4AF8-A1D1-9853A1CAA001}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BinaryTree", "BinaryTree\BinaryTree.csproj", "{8EF49457-3B73-4B99-A8BD-CE67918DE68E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "排序算法", "排序算法\排序算法.csproj", "{AB112E63-2D4C-48EF-9D34-5BFC4255231B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8ED78223-CBB2-4D75-ADEB-811A93D81011}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8ED78223-CBB2-4D75-ADEB-811A93D81011}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8ED78223-CBB2-4D75-ADEB-811A93D81011}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8ED78223-CBB2-4D75-ADEB-811A93D81011}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8920B073-0313-4E09-8A66-89DA02CE961E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8920B073-0313-4E09-8A66-89DA02CE961E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8920B073-0313-4E09-8A66-89DA02CE961E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8920B073-0313-4E09-8A66-89DA02CE961E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1F4C1B8D-ADC8-4DDC-ABB7-317774C37761}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1F4C1B8D-ADC8-4DDC-ABB7-317774C37761}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1F4C1B8D-ADC8-4DDC-ABB7-317774C37761}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1F4C1B8D-ADC8-4DDC-ABB7-317774C37761}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4CB68E3F-8CAC-4AF8-A1D1-9853A1CAA001}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4CB68E3F-8CAC-4AF8-A1D1-9853A1CAA001}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4CB68E3F-8CAC-4AF8-A1D1-9853A1CAA001}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4CB68E3F-8CAC-4AF8-A1D1-9853A1CAA001}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8EF49457-3B73-4B99-A8BD-CE67918DE68E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8EF49457-3B73-4B99-A8BD-CE67918DE68E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8EF49457-3B73-4B99-A8BD-CE67918DE68E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8EF49457-3B73-4B99-A8BD-CE67918DE68E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AB112E63-2D4C-48EF-9D34-5BFC4255231B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AB112E63-2D4C-48EF-9D34-5BFC4255231B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AB112E63-2D4C-48EF-9D34-5BFC4255231B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AB112E63-2D4C-48EF-9D34-5BFC4255231B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {ABF330D6-ABFE-4BB6-9B16-BB453D09304B}
+	EndGlobalSection
+EndGlobal
