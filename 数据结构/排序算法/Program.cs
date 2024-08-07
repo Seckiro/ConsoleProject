@@ -1,4 +1,7 @@
-﻿namespace 排序算法
+﻿
+using System.Collections;
+
+namespace 排序算法
 {
     internal class Program
     {
@@ -12,7 +15,78 @@
             //QuickSort(values);
             //HeapSort(values);
             //MergeSort(values);
-            RadixSort(values);
+            //RadixSort(values);
+
+            Enumerable<int> enumerable = new Enumerable<int>(values);
+            IEnumerator<int> enumerator = enumerable.GetEnumerator();
+
+            while (enumerator.MoveNext())
+            {
+                Console.Write($"{enumerator.Current} ");
+            }
+
+            Console.WriteLine();
+            foreach (var item in enumerable)
+            {
+                Console.Write($"{item} ");
+            }
+        }
+
+        class Enumerable<T> : IEnumerable<T>
+        {
+            private readonly T[] _value;
+            public Enumerable(T[] values)
+            {
+                _value = values;
+            }
+            public IEnumerator<T> GetEnumerator()
+            {
+                return new Enumerator<T>(_value);
+            }
+
+            IEnumerator IEnumerable.GetEnumerator()
+            {
+                foreach (var item in _value)
+                {
+                    yield return item;
+                }
+            }
+
+            internal class Enumerator<T> : IEnumerator<T>
+            {
+                private int _index = -1;
+                private int _length = 0;
+
+                private T[]? _values;
+
+                public T Current => _values[_index];
+
+                object IEnumerator.Current => Current;
+
+                public Enumerator(T[] values)
+                {
+                    _values = values;
+                    _length = values.Length;
+                }
+
+                public bool MoveNext()
+                {
+                    _index++;
+                    return _index < _length;
+                }
+
+                public void Reset()
+                {
+                    _index = -1;
+                }
+
+                public void Dispose()
+                {
+                    _index = -1;
+                    _length = 0;
+                    _values = default;
+                }
+            }
         }
 
         public static void BubbleSort(int[] values)
