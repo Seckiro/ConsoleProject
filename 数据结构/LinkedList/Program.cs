@@ -9,6 +9,7 @@
             {
                 linkedList.AddLinkedNode(i);
             }
+            linkedList.ReverseLinkedList();
             linkedList.PrintLinkedList();
         }
 
@@ -48,6 +49,25 @@
                     Console.WriteLine(tempNode.Value);
                     tempNode = tempNode.Next;
                 }
+            }
+
+            public void ReverseLinkedList()
+            {
+                _head = ReverseNode(_head);
+            }
+
+            public LinkedListNode<T> ReverseNode(LinkedListNode<T> head)
+            {
+                LinkedListNode<T> phead = head;
+                LinkedListNode<T> qhead = head.Next;
+                while (qhead != null)
+                {
+                    phead.Next = qhead.Next;
+                    qhead.Next = head;
+                    head = qhead;
+                    qhead = phead.Next;
+                }
+                return head;
             }
         }
         public class LinkedListNode<T>
